@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+.entete{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 20%;
+}
+
+ul{
+    display: flex;
+    padding-left: 0%;
+}
+
+.perso img{
+    padding-left: 4%;
+
+}
+
+li{
+    list-style-type: none;
+    padding-left: 0%;
+    gap: 10%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.perso{
+    border-top: solid 12px white;
+    border-bottom: solid 12px white;
+    background-image: url(images/WallpaperDog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    background-image: url(images/fancy-pants.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.text{
+    background-image: url(images/fancy-pants.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu h2{
+    color: orange;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    margin: 3%;
+}
+
+.welcome img{
+    width: 70%;
+}
+
+footer{
+    background-image: url(images/WallpaperDog.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.fin{
+    display: flex;
+}
+
+.fin h2{
+    font-size: 1.5em;
+}
+
+.flexible iframe{
+    border-radius: 3%;
+}
+
+.work{
+    margin-right: 5%;
+}
+
+.perso img{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10%;
+    padding: 0;
+    margin: 2.3%;
+}
