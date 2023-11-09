@@ -1,12 +1,9 @@
-*{
-    margin: 0;
-}
-
 .entete{
-    display: flex;
-    justify-content: space-between;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
 }
 
 img{
@@ -30,6 +27,7 @@ li{
 }
 
 .logo{
+    width: 20%;
     text-align: center;
 }
 
@@ -54,7 +52,8 @@ header{
     color: white;
     padding: 5%;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playpen Sans';
+
 }
 
 .menu h2{
@@ -63,7 +62,7 @@ header{
 
 .menu{
     display: flex;
-    width: 100%;
+    width: 95%;
     margin: 3%;
 }
 
@@ -76,10 +75,12 @@ footer{
     background-size: cover;
     background-position: center;
     color: white;
+    padding: 20px;
 }
 
 .fin{
     display: flex;
+    justify-content: space-between;
 }
 
 .fin h2{
@@ -100,3 +101,62 @@ footer{
     padding: 0;
     margin: 2.3%;
 }
+
+ul{
+    width: 35%;
+    gap: 10%;
+}
+
+.work{
+    margin-bottom: 30% ;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+li{
+    font-size: 2em;
+}
+
+.contact{
+    padding-left: 2%;
+}
+
+.WIDGETHER{
+    padding-right: 2%;
+    text-align: center;
+}
+
+.fin h2{
+    font-size: 15px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+input{
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 20px;
+    background-color: white;
+    color: black;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
