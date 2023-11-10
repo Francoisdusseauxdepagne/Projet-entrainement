@@ -10,10 +10,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100;500&family=Poppins&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100;500&family=Playpen+Sans:wght@300&family=Poppins&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100;500&family=Playpen+Sans:wght@300&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Star wars</title>
 </head>
 
@@ -26,12 +30,64 @@
 
                     <h1>Rebels VS Empire</h1>
                 </div>
-                    <ul>
-                        <li>Sith</li>
-                        <li>Jedi</li>
-                        <li>Rebels</li>
-                        <li>Empire</li>
-                    </ul>
+                <div class="listes">
+                    <div>
+                        <div class="ulprincipale1">
+                            <ul>
+                                <li><a href="https://fr.wikipedia.org/wiki/Sith" target="_blank">Sith</a></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="ulfirst">
+                            <ul>
+                                <li>Menu style</li>
+                                <li>Sliders</li>
+                                <li>More Deatures</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="ulprincipale2">
+                            <ul>
+                                <li><a href="https://fr.wikipedia.org/wiki/Jedi" target="_blank">Jedi</a></li>
+                        </div>
+                        <div class="ulfirst">
+                            <ul>
+                                <li>About Us</li>
+                                <li>Contact Us</li>
+                                <li>Custom Pages</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="ulprincipale3">
+                            <ul>
+                                <li><a href="https://fr.wikipedia.org/wiki/Alliance_rebelle" target="_blank">Rebels</a></li>
+                            </ul>
+                        </div>
+                        <div class="ulfirst">
+                            <ul>
+                                <li>Two columns</li>
+                                <li>Three columns</li>
+                                <li>More Layout</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="ulprincipale4">
+                            <ul>
+                                <li><a href="https://fr.wikipedia.org/wiki/Empire_galactique_(Star_Wars)" target="_blank">Empire</a></li>
+                            </ul>
+                        </div>
+                        <div class="ulfirst">
+                            <ul>
+                                <li>Product Category 1</li>
+                                <li>Product Category 2</li>
+                                <li>Custom Templates</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -90,13 +146,17 @@
         <section class="fin">
             <div class="contact">
                 <h2>CONTACT DETAILS</h2>
-                <p>63739 street lorem ipsum City, Country</p>
-                <p>+1 123 312 32 23</p>
-                <p>info@company.com</p>
-                <p>support@company.com</p>
+                <p><i class="fa-solid fa-house"></i> 63739 street lorem ipsum City, Country</p>
+                <p><i class="fa-solid fa-phone"></i> +1 123 312 32 23</p>
+                <p><i class="fa-regular fa-envelope"></i> info@company.com</p>
+                <p><i class="fa-solid fa-envelope"></i> support@company.com</p>
             </div>
             <div class="where">
                 <h2>WHERE FIND US</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47908.13652009874!2d5.601092772131216!3d43.18813683899137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1699544841060!5m2!1sfr!2sfr"
+                    width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="us">
                 <h2>CONTACT US</h2>
@@ -104,11 +164,11 @@
                     <div class="email-textarea">
                         <div class="email">
                             <label for="email">Your Email</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div class="textarea">
                             <label for="text">Subject</label>
-                            <textarea name="text" id="text" cols="30" rows="3"></textarea>
+                            <textarea name="text" id="text" cols="30" rows="3" required></textarea>
                         </div>
                     </div>
                     <input type="submit" value="submit">

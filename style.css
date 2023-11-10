@@ -29,6 +29,7 @@ li{
 .logo{
     width: 20%;
     text-align: center;
+    padding-top: 20px;
 }
 
 .perso{
@@ -102,11 +103,6 @@ footer{
     margin: 2.3%;
 }
 
-ul{
-    width: 35%;
-    gap: 10%;
-}
-
 .work{
     margin-bottom: 30% ;
 }
@@ -114,6 +110,7 @@ ul{
 .menu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 li{
@@ -128,6 +125,11 @@ li{
     padding-right: 2%;
     text-align: center;
 }
+
+.WIDGETHER img{
+   padding: 30px;
+}
+
 
 .fin h2{
     font-size: 15px;
@@ -160,3 +162,58 @@ textarea{
     border-radius: 5px;
 }
 
+.ulfirst ul{
+    display: flex;
+    flex-direction: column
+}
+
+.listes{
+    display: flex;
+    font-size: 10px;
+    gap: 35px;
+    font-family: 'Playpen Sans';
+}
+
+.ulprincipale1 li{
+    border-bottom:5px solid red;
+    font-size: 3em;
+}
+
+.ulprincipale2 li{
+    border-bottom:5px solid lightblue;
+    font-size: 3em;
+}
+
+.ulprincipale3 li{
+    border-bottom:5px solid red;
+    font-size: 3em;
+}
+
+.ulprincipale4 li{
+    border-bottom:5px solid lightblue;
+    font-size: 3em;
+}
+
+.ulfirst li{
+    font-size: 1.5em;
+}
+
+.ulprincipale1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.ulprincipale2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.ulprincipale3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.ulprincipale4 a{
+    text-decoration: none;
+    color: white;
+}
